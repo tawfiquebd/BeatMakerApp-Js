@@ -96,3 +96,12 @@ select {
   font-size: 0.7rem;
   border: 1px solid #000;
 }
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
